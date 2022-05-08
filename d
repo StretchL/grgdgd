@@ -878,7 +878,7 @@ Bar.Size = UDim2.new(0, 364, 0, 1)
 
 -- Scripts:
 
-local function BKTE_fake_script() -- Toggle.Script 
+local function QBZSXTW_fake_script() -- Toggle.Script 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local toggled = false -- The start state of the toggle
@@ -1010,12 +1010,11 @@ local function BKTE_fake_script() -- Toggle.Script
 				
 				end --When true
 			end
-		end
 		end)
 	
 end
-coroutine.wrap(BKTE_fake_script)()
-local function KBVCB_fake_script() -- Toggle_2.Script 
+coroutine.wrap(QBZSXTW_fake_script)()
+local function FXJGGM_fake_script() -- Toggle_2.Script 
 	local script = Instance.new('LocalScript', Toggle_2)
 
 	local toggled = false -- The start state of the toggle
@@ -1078,8 +1077,8 @@ local function KBVCB_fake_script() -- Toggle_2.Script
 		end)
 	
 end
-coroutine.wrap(KBVCB_fake_script)()
-local function BGWHQJ_fake_script() -- Toggle_3.Script 
+coroutine.wrap(FXJGGM_fake_script)()
+local function JCZTYE_fake_script() -- Toggle_3.Script 
 	local script = Instance.new('LocalScript', Toggle_3)
 
 	local toggled = false -- The start state of the toggle
@@ -1156,8 +1155,8 @@ local function BGWHQJ_fake_script() -- Toggle_3.Script
 		end)
 	
 end
-coroutine.wrap(BGWHQJ_fake_script)()
-local function GDQD_fake_script() -- Toggle_4.Script 
+coroutine.wrap(JCZTYE_fake_script)()
+local function LXBUPF_fake_script() -- Toggle_4.Script 
 	local script = Instance.new('LocalScript', Toggle_4)
 
 	local toggled = false -- The start state of the toggle
@@ -1213,8 +1212,8 @@ local function GDQD_fake_script() -- Toggle_4.Script
 		end)
 	
 end
-coroutine.wrap(GDQD_fake_script)()
-local function XRWADXO_fake_script() -- Toggle_5.Script 
+coroutine.wrap(LXBUPF_fake_script)()
+local function YMWGIPH_fake_script() -- Toggle_5.Script 
 	local script = Instance.new('LocalScript', Toggle_5)
 
 	local toggled = false -- The start state of the toggle
@@ -1267,8 +1266,8 @@ local function XRWADXO_fake_script() -- Toggle_5.Script
 		end)
 	
 end
-coroutine.wrap(XRWADXO_fake_script)()
-local function CNSTRCL_fake_script() -- Toggle_6.Script 
+coroutine.wrap(YMWGIPH_fake_script)()
+local function LNOXZ_fake_script() -- Toggle_6.Script 
 	local script = Instance.new('LocalScript', Toggle_6)
 
 	local toggled = false -- The start state of the toggle
@@ -1304,8 +1303,8 @@ local function CNSTRCL_fake_script() -- Toggle_6.Script
 		end)
 	
 end
-coroutine.wrap(CNSTRCL_fake_script)()
-local function PWUYP_fake_script() -- Toggle_7.Script 
+coroutine.wrap(LNOXZ_fake_script)()
+local function TWHGIXI_fake_script() -- Toggle_7.Script 
 	local script = Instance.new('LocalScript', Toggle_7)
 
 	local toggled = false -- The start state of the toggle
@@ -1351,12 +1350,11 @@ local function PWUYP_fake_script() -- Toggle_7.Script
 			end
 		end
 		
-		end
-	end)
+		end)
 	
 end
-coroutine.wrap(PWUYP_fake_script)()
-local function TSDKGLT_fake_script() -- Toggle_8.Script 
+coroutine.wrap(TWHGIXI_fake_script)()
+local function LDSVCPU_fake_script() -- Toggle_8.Script 
 	local script = Instance.new('LocalScript', Toggle_8)
 
 	local toggled = false -- The start state of the toggle
@@ -1395,8 +1393,8 @@ local function TSDKGLT_fake_script() -- Toggle_8.Script
 		
 		end)
 end
-coroutine.wrap(TSDKGLT_fake_script)()
-local function AAWIF_fake_script() -- Toggle_9.Script 
+coroutine.wrap(LDSVCPU_fake_script)()
+local function CPRDR_fake_script() -- Toggle_9.Script 
 	local script = Instance.new('LocalScript', Toggle_9)
 
 	local toggled = false -- The start state of the toggle
@@ -1425,8 +1423,8 @@ local function AAWIF_fake_script() -- Toggle_9.Script
 		end)
 	
 end
-coroutine.wrap(AAWIF_fake_script)()
-local function GRUI_fake_script() -- Toggle_10.Script 
+coroutine.wrap(CPRDR_fake_script)()
+local function HMYWQ_fake_script() -- Toggle_10.Script 
 	local script = Instance.new('LocalScript', Toggle_10)
 
 	local toggled = false -- The start state of the toggle
@@ -1461,8 +1459,8 @@ local function GRUI_fake_script() -- Toggle_10.Script
 		
 		end)
 end
-coroutine.wrap(GRUI_fake_script)()
-local function QJCT_fake_script() -- Toggle_11.Script 
+coroutine.wrap(HMYWQ_fake_script)()
+local function XFKKBE_fake_script() -- Toggle_11.Script 
 	local script = Instance.new('LocalScript', Toggle_11)
 
 	local toggled = false -- The start state of the toggle
@@ -1490,8 +1488,8 @@ local function QJCT_fake_script() -- Toggle_11.Script
 		
 		end)
 end
-coroutine.wrap(QJCT_fake_script)()
-local function MAUGWH_fake_script() -- Toggle_12.Script 
+coroutine.wrap(XFKKBE_fake_script)()
+local function UBGYMSK_fake_script() -- Toggle_12.Script 
 	local script = Instance.new('LocalScript', Toggle_12)
 
 	local toggled = false -- The start state of the toggle
@@ -1514,8 +1512,8 @@ local function MAUGWH_fake_script() -- Toggle_12.Script
 		
 		end)
 end
-coroutine.wrap(MAUGWH_fake_script)()
-local function ELQUF_fake_script() -- Script.LocalScript 
+coroutine.wrap(UBGYMSK_fake_script)()
+local function BIUWK_fake_script() -- Script.LocalScript 
 	local script = Instance.new('LocalScript', Script)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1558,8 +1556,8 @@ local function ELQUF_fake_script() -- Script.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ELQUF_fake_script)()
-local function HYHBKVK_fake_script() -- Script.LocalScript 
+coroutine.wrap(BIUWK_fake_script)()
+local function LKMZ_fake_script() -- Script.LocalScript 
 	local script = Instance.new('LocalScript', Script)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1571,4 +1569,4 @@ local function HYHBKVK_fake_script() -- Script.LocalScript
 		plr:Kick("Not Mobile Bozo Buy Stampy V2 Win10")
 	end
 end
-coroutine.wrap(HYHBKVK_fake_script)()
+coroutine.wrap(LKMZ_fake_script)()
