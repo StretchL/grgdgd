@@ -96,14 +96,14 @@ Script.Parent = ScreenGui
 Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Script.BackgroundTransparency = 1.000
 Script.BorderSizePixel = 0
-Script.Position = UDim2.new(0.574242592, 0, 0.578903258, 0)
+Script.Position = UDim2.new(0.535934508, 0, 0.534317255, 0)
 Script.Size = UDim2.new(0, 381, 0, 28)
 Script.ZIndex = 4
 
 StampyV2.Name = "StampyV2"
 StampyV2.Parent = Script
 StampyV2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-StampyV2.Position = UDim2.new(-0.322621852, 0, -7.57800484, 0)
+StampyV2.Position = UDim2.new(-0.00241187215, 0, -0.00657606125, 0)
 StampyV2.Size = UDim2.new(0, 382, 0, 320)
 
 UICorner.Parent = StampyV2
@@ -878,7 +878,7 @@ Bar.Size = UDim2.new(0, 364, 0, 1)
 
 -- Scripts:
 
-local function CFYV_fake_script() -- Toggle.Script 
+local function BKTE_fake_script() -- Toggle.Script 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local toggled = false -- The start state of the toggle
@@ -902,7 +902,6 @@ local function CFYV_fake_script() -- Toggle.Script
 				debounce = false
 				toggled = true
 				
-				if login == true then
 				-- Naked
 				local hummy = game:GetService("Players").LocalPlayer.Character.Humanoid
 				pcall(function()
@@ -973,7 +972,7 @@ local function CFYV_fake_script() -- Toggle.Script
 				shared.MoneyFarm = true -- Vice Versa // Set To False To Stop Autofarming (Can Be In Same Button)
 	
 				while shared.MoneyFarm do
-					game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Atm Farm Unpatched (Free) ", "All") -- Creates A Text every single time you get to a new atm
+					game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Mobile Farm ", "All") -- Creates A Text every single time you get to a new atm
 					wait()
 	
 					local Target = gettarget()
@@ -1015,8 +1014,8 @@ local function CFYV_fake_script() -- Toggle.Script
 		end)
 	
 end
-coroutine.wrap(CFYV_fake_script)()
-local function UWJWAQK_fake_script() -- Toggle_2.Script 
+coroutine.wrap(BKTE_fake_script)()
+local function KBVCB_fake_script() -- Toggle_2.Script 
 	local script = Instance.new('LocalScript', Toggle_2)
 
 	local toggled = false -- The start state of the toggle
@@ -1079,8 +1078,8 @@ local function UWJWAQK_fake_script() -- Toggle_2.Script
 		end)
 	
 end
-coroutine.wrap(UWJWAQK_fake_script)()
-local function FOSAU_fake_script() -- Toggle_3.Script 
+coroutine.wrap(KBVCB_fake_script)()
+local function BGWHQJ_fake_script() -- Toggle_3.Script 
 	local script = Instance.new('LocalScript', Toggle_3)
 
 	local toggled = false -- The start state of the toggle
@@ -1157,8 +1156,8 @@ local function FOSAU_fake_script() -- Toggle_3.Script
 		end)
 	
 end
-coroutine.wrap(FOSAU_fake_script)()
-local function ZQDCZRL_fake_script() -- Toggle_4.Script 
+coroutine.wrap(BGWHQJ_fake_script)()
+local function GDQD_fake_script() -- Toggle_4.Script 
 	local script = Instance.new('LocalScript', Toggle_4)
 
 	local toggled = false -- The start state of the toggle
@@ -1214,8 +1213,8 @@ local function ZQDCZRL_fake_script() -- Toggle_4.Script
 		end)
 	
 end
-coroutine.wrap(ZQDCZRL_fake_script)()
-local function KHRYQCH_fake_script() -- Toggle_5.Script 
+coroutine.wrap(GDQD_fake_script)()
+local function XRWADXO_fake_script() -- Toggle_5.Script 
 	local script = Instance.new('LocalScript', Toggle_5)
 
 	local toggled = false -- The start state of the toggle
@@ -1268,8 +1267,8 @@ local function KHRYQCH_fake_script() -- Toggle_5.Script
 		end)
 	
 end
-coroutine.wrap(KHRYQCH_fake_script)()
-local function KYINJJQ_fake_script() -- Toggle_6.Script 
+coroutine.wrap(XRWADXO_fake_script)()
+local function CNSTRCL_fake_script() -- Toggle_6.Script 
 	local script = Instance.new('LocalScript', Toggle_6)
 
 	local toggled = false -- The start state of the toggle
@@ -1305,8 +1304,8 @@ local function KYINJJQ_fake_script() -- Toggle_6.Script
 		end)
 	
 end
-coroutine.wrap(KYINJJQ_fake_script)()
-local function RKWZ_fake_script() -- Toggle_7.Script 
+coroutine.wrap(CNSTRCL_fake_script)()
+local function PWUYP_fake_script() -- Toggle_7.Script 
 	local script = Instance.new('LocalScript', Toggle_7)
 
 	local toggled = false -- The start state of the toggle
@@ -1328,10 +1327,9 @@ local function RKWZ_fake_script() -- Toggle_7.Script
 				wait(0.25)
 				debounce = false
 				toggled = true
-				if login == true then
-				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Crasher V2 Loading ", "All")
+				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Mobile Crasher ", "All")
 				wait(2)
-				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Crasher V2 Loaded ", "All")
+				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Mobile Crasher Loaded ", "All")
 				wait(1)
 				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Dont Leave Be Patient :)", "All")
 				local Tool = 'Wallet' 
@@ -1357,8 +1355,8 @@ local function RKWZ_fake_script() -- Toggle_7.Script
 	end)
 	
 end
-coroutine.wrap(RKWZ_fake_script)()
-local function UXWJ_fake_script() -- Toggle_8.Script 
+coroutine.wrap(PWUYP_fake_script)()
+local function TSDKGLT_fake_script() -- Toggle_8.Script 
 	local script = Instance.new('LocalScript', Toggle_8)
 
 	local toggled = false -- The start state of the toggle
@@ -1397,8 +1395,8 @@ local function UXWJ_fake_script() -- Toggle_8.Script
 		
 		end)
 end
-coroutine.wrap(UXWJ_fake_script)()
-local function JHXGE_fake_script() -- Toggle_9.Script 
+coroutine.wrap(TSDKGLT_fake_script)()
+local function AAWIF_fake_script() -- Toggle_9.Script 
 	local script = Instance.new('LocalScript', Toggle_9)
 
 	local toggled = false -- The start state of the toggle
@@ -1427,8 +1425,8 @@ local function JHXGE_fake_script() -- Toggle_9.Script
 		end)
 	
 end
-coroutine.wrap(JHXGE_fake_script)()
-local function ASXLOC_fake_script() -- Toggle_10.Script 
+coroutine.wrap(AAWIF_fake_script)()
+local function GRUI_fake_script() -- Toggle_10.Script 
 	local script = Instance.new('LocalScript', Toggle_10)
 
 	local toggled = false -- The start state of the toggle
@@ -1463,8 +1461,8 @@ local function ASXLOC_fake_script() -- Toggle_10.Script
 		
 		end)
 end
-coroutine.wrap(ASXLOC_fake_script)()
-local function ONQFEOT_fake_script() -- Toggle_11.Script 
+coroutine.wrap(GRUI_fake_script)()
+local function QJCT_fake_script() -- Toggle_11.Script 
 	local script = Instance.new('LocalScript', Toggle_11)
 
 	local toggled = false -- The start state of the toggle
@@ -1492,8 +1490,8 @@ local function ONQFEOT_fake_script() -- Toggle_11.Script
 		
 		end)
 end
-coroutine.wrap(ONQFEOT_fake_script)()
-local function ULUOWPY_fake_script() -- Toggle_12.Script 
+coroutine.wrap(QJCT_fake_script)()
+local function MAUGWH_fake_script() -- Toggle_12.Script 
 	local script = Instance.new('LocalScript', Toggle_12)
 
 	local toggled = false -- The start state of the toggle
@@ -1516,8 +1514,8 @@ local function ULUOWPY_fake_script() -- Toggle_12.Script
 		
 		end)
 end
-coroutine.wrap(ULUOWPY_fake_script)()
-local function CMKUCP_fake_script() -- Script.LocalScript 
+coroutine.wrap(MAUGWH_fake_script)()
+local function ELQUF_fake_script() -- Script.LocalScript 
 	local script = Instance.new('LocalScript', Script)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1560,8 +1558,8 @@ local function CMKUCP_fake_script() -- Script.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CMKUCP_fake_script)()
-local function WAUR_fake_script() -- Script.LocalScript 
+coroutine.wrap(ELQUF_fake_script)()
+local function HYHBKVK_fake_script() -- Script.LocalScript 
 	local script = Instance.new('LocalScript', Script)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1573,4 +1571,4 @@ local function WAUR_fake_script() -- Script.LocalScript
 		plr:Kick("Not Mobile Bozo Buy Stampy V2 Win10")
 	end
 end
-coroutine.wrap(WAUR_fake_script)()
+coroutine.wrap(HYHBKVK_fake_script)()
